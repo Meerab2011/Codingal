@@ -1,9 +1,49 @@
 <html>
-    <head>
+    <head><style>
+        /*ADVANCED ATTRIBUTE
+        attribute Seletor*/
+input[type="text"]{border: 2px dashed palevioletred;}
+/*Child Selector*/
+ol>li{color:blue;}
+/*Sibling Selector*/
+h1+p{font-size: 20px;background-color:maroon;}
+/*PSEUDO CLASSES
+hover*/
+a:hover{color: red;}
+/*nth-child*/
+li:nth-child(1){color: aqua;}
+/*not */
+p:not(.c2){border:4px dotted rgb(13, 158, 237);}
+/*PSEUDO Elements
+before*/
+.c3::before{content:"Hello"; background-color: rgb(180, 9, 172);}
+/*after*/
+.c3::after{content:"bye"; background-color: blueviolet;}
+/*first letter*/
+p::first-letter{font-size: 50px; color: brown;}
+    </style>
 
     </head>
     <body>
+        <h1>Advanced selector</h1>
+        <p>Hello World.</p>
+        <p"c1">Meerab</p>
+        <p"c2">Raaziya</p>
+        <p"c3">Noureen</p>
+        <p"c4">Davanshu</p>
+        <a href="#">Click Here</a><br><br>
+<Form>
+Name:<input type="text">
+Age:<input type="number">
+</Form>
+<ol>
+<li>Apple</li>
+<li>Orange</li>
+<li>Grapes</li>
+<li>Banana</li>
+<li>Mango</li>
+</ol>
 
-        
+
     </body>
 </html>
