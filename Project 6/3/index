@@ -1,0 +1,32 @@
+<html>
+    <head>
+    
+        <title>mark</title>
+    
+        <meta charset="utf-8">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    </head>
+    <body>
+        <h1 style="color: aquamarine;">Abbreviation</h1>
+        <p>It is used to make up an abbreviation or acronym:</p>
+        <p> <abbr title="Codingal">cdgl</abbr> was found in 2020.</p>
+        <h1 style="color:gold">Blockquote</h1>
+        <p>It is used to present cotent from another source:</p>
+    <blockquote class="blockquote">
+    <p>Codingal is on a mission</p>
+    <footer class="blockquote-footer">From condingal</footer></blockquote>
+    <h1 style="color:plum">Multiple Code line</h1>
+    <pre>
+        Codingal is on
+         a mission to inspire
+         school kids.
+    </pre>
+    <h1 style="color:pink">Keyboard input</h1>
+    <p>Use <kbd>ctrl+p</kbd>to open print dialog box</p>
+    <input type="color" name="" id="">
+    </body>
+</html>
