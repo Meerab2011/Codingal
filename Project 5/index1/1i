@@ -1,0 +1,31 @@
+<html>
+        <head>
+        
+            <title>Bootstrap Example</title>
+        
+            <link rel="stylesheet" href="style.css">
+        
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+            </script>
+        
+        </head>
+        <body>
+            <div class="container">
+                <h1> <i>Hello</i></h1>
+                <p><b>Hello</b></p>
+                <div class="row">
+                    <!--Size Large,medium and extera small-->
+                    <div class="col-Lg-6" style="background-color: aquamarine;">data</div>
+                    <div class="col-Lg-4" style="background-color: rgb(25, 0, 255);">data</div>
+                    <div class="col-Lg-2" style="background-color: pink;">data</div>
+                    <div class="row">
+                        <!--Size  extera small-->
+                        <div class="col-Lg-8" style="background-color: rgb(210, 255, 127);">data</div>
+                        <div class="col-xs-6" style="background-color: rgb(255, 0, 4);">data</div>
+                        <div class="col-xs-6" style="background-color: rgb(128, 19, 0);">data</div>
+                    </div>
+                </div>
+        </body>
+</html>

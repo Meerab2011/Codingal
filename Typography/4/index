@@ -1,0 +1,29 @@
+<html>
+    <head>
+    
+        <title>mark</title>
+    
+        <meta charset="utf-8">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    </head>
+    <body>
+        <h1>Abbrivation</h1>
+        <p>It isuse to make up an abbrivation or acronmy</p>
+        <p><addr title="codingal">cdgl</addr>wass found in 2020.</p>
+        <blockquote class="blockquote">It use in another source:</blockquote>
+        <blockquote class="blockquote"></blockquote>
+        <p>It isuse to make up an abbrivation or acronmy</p>
+        <footer class="blockquote-footer">Coding</footer>
+        <h1>Code line</h1>
+        <p>It isuse to make up an abbrivation or acronmy</p>
+        <pre>Coding
+            is
+            good
+            <form action=""></form>
+        </pre>
+    </body>
+</html>
