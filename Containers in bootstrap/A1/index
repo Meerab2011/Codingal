@@ -1,0 +1,48 @@
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Full width container</title>
+
+</head>
+<body>
+    <div class="container boarder">
+        <h1>Condingal</h1>
+        <p>Making kid fall in love with coding</p>
+    </div>
+
+    <div class="container px-5 mx-5 bg-success text-white">
+        <h1>Condingal</h1>
+        <p>Making kid fall in love with coding</p>
+    </div>
+
+    <div class="container pr-4 mr-5 bg-danger text-info">
+        <h1>My Condingal</h1>
+        <p>Making kid fall in love with coding</p>
+    </div>
+
+    <div class="container pt-1 mt-3 bg-dark text-info">
+        <h1>My Condingal</h1>
+        <p>Making kid fall in love with coding</p>
+    </div>
+
+    <div class="container pl-3 ml-5 bg-warning text-info">
+        <h1>My Condingal</h1>
+        <p>Making kid fall in love with coding</p>
+
+
+        <div class="container py-2 my-4 bg-secondary text-info">
+            <h1>My Condingal</h1>
+            <p>Making kid fall in love with coding</p>
+
+            <div class="container p-2 m-3 bg-light text-info">
+                <h1>My Condingal</h1>
+                <p>Making kid fall in love with coding</p>
+    </div>
+</body> 
+</html>
