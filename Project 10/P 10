@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+    <style>
+        body {
+            position: relative;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        #section1 {
+            padding-top: 50px;
+            height: 500px;
+            color: white;
+            background-color: purple;
+        }
+
+        #section2 {
+            padding-top: 50px;
+            height: 500px;
+            color: pink;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Codingal</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">Section 1</a></li>
+                        <li><a href="#section2">Section 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="section1" class="container-fluid">
+        <h1>Section 1</h1>
+        <h3>Animals</h3>
+        <h5>A characteristic of members of the animal kingdom is the presence of muscles and the mobility they afford. Mobility is
+        an important influence on how an organism obtains nutrients for growth and reproduction. Animals typically move, in one
+        way or another, to feed on other living organisms, but some consume dead organic matter or even photosynthesize by
+        housing symbiotic algae. The type of nutrition is not as decisive as the type of mobility in distinguishing animals from
+        the other two multicellular kingdoms. Some plants and fungi prey on animals by using movements based on changing turgor
+        pressure in key cells, as compared with the myofilament-based mobility seen in animals. Mobility requires the
+        development of vastly more elaborate senses and internal communication than are found in plants or fungi. It also
+        requires a different mode of growth: animals increase in size mostly by expanding all parts of the body, whereas plants
+        and fungi mostly extend their terminal edges.</h5>
+    <div class="carousel-inner">
+        <div class="item active">
+                <img src="i5.webp" alt="Image 1">
+            </div>
+            <p>Scroll this section.</p>
+    </div>
+    <div id="section2" class="container-fluid">
+        <h1>Section 2</h1>
+        <h3>Fruit</h3>
+        <h5>Fruits are important sources of dietary fibre, vitamins (especially vitamin C), and antioxidants. Although fresh fruits
+        are subject to spoilage, their shelf life can be extended by refrigeration or by the removal of oxygen from their
+        storage or packaging containers. Fruits can be processed into juices, jams, and jellies and preserved by dehydration,
+        canning, fermentation, and pickling. Waxes, such as those from bayberries (wax myrtles), and vegetable ivory from the
+        hard fruits of a South American palm species (Phytelephas macrocarpa) are important fruit-derived products. Various
+        drugs come from fruits, such as morphine from the fruit of the opium poppy.</h5>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="i6.jpeg" alt="Image 1">
+            </div>
+            <p>Scroll this section.</p>
+    </div>
+</body>
+
+</html>
