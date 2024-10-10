@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <button onclick="f1()">Click here for f1()</button>
+        <p id="a1"></p>
+        <p id="a2"></p>
+        <p id="a3"></p>
+        <button onclick="f2(987,453)">Click here for f2()</button>
+        <!--987,453 are the argument passed to a,b respectively-->
+        <script>
+            function f1() {
+                document.write("My name is Meerab.I study in 9th class.");
+            }
+            
+            function f2(a,b) {//a,b
+                document.getElementById("i1").innerHTML = a;
+                document.getElementById("i2").innerHTML = b;
+                var z = a*b
+                document.getElementById("i3").innerHTML = "multiply=" * c;
+            }
+            function f3(a,b,c) {//a,b 
+                var res = a*b/54
+                return res;
+            }
+            var ans = f3(987,453,54);
+            document.write("<br><br>" + ans);//arguments:
+        </script>
+    </body>
+</html>

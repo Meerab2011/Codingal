@@ -3,6 +3,29 @@
 
 </head>
 <body>
-    
+<button onclick="f1()">Click here for f1()</button>
+<p id="i1"></p>
+<p id="i2"></p>
+<p id="i3"></p>
+<button onclick="f2(3,4)">Click here for f2()</button>
+<!--3,4 are the argument passed to x,y respectively-->
+<script>
+    function f1(){
+        document.write("hello");
+    }
+    f1();
+    function f2(x,y) {//x,y are parameters
+        document.getElementById("i1").innerHTML=x;
+        document.getElementById("i2").innerHTML = y;
+        var z=x+y
+        document.getElementById("i3").innerHTML = "sum="+z;
+}
+function f3(x,y,z){//x,y are parameters (expectations)
+    var res=x+y-z
+    return res;
+    }
+    var ans=f3(3,10,2);
+    document.write("<br><br>"+ans);//arguments:passed value
+</script>
 </body>
 </html>
