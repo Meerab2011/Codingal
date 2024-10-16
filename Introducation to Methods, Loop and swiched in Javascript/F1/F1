@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <script>
+            var a=2;
+            switch(a){
+                case 0:message ="Good morning";
+                break;
+
+                
+                case 1: message="Good afternoon";
+                    break;
+
+                    
+                case 2: message="Good evening";
+                    break;
+
+                    
+                default : message="Good night";
+                    break;
+            }document.write(message+"<br>"+new Date())
+        </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <script>
+            //Loop:itration:repeation
+            /*  *  *  *  *
+x=1
+2
+3
+.
+.
+.
+x=20*/
+var x;
+for(x=1;x<=20;x+=1){
+    document.write(x+"-->"+"*"+"<br>")
+}
+//Display the at the interval of 5 from 20 to 50
+
+/*  *  *  *  *
+a=20
+25
+30
+
+.
+.
+.
+a=50*/
+    var a;
+    for (x = 20; x <= 50; x +=5 ) {
+        document.write(x +"-->" + "*" + "<br>")}
+        </script>
+    </body>
+</html>

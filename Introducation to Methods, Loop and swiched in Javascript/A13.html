@@ -1,8 +1,75 @@
 <html>
-    <head>
 
-    </head>
-    <body>
-        
-    </body>
+<body>
+
+    <script>
+
+        var a;
+
+        var a = Math.random();//0 to 1 : 0.5,0.00008
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.abs(-20);// |-3|=3, |30|=30 : positive
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.acos(-1);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.asin(1);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.atan(0.5);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.round(10.57567);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.floor(10.57567);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.ceil(10.57567);
+
+        document.write("a = " + a + "<br>");
+
+        var b = "Hello AnUGraHA";
+
+        b = b.toUpperCase();
+
+        document.write("b = " + b + "<br>");
+
+        b = b.toLowerCase();
+
+        document.write("b = " + b + "<br>");
+
+        b = "Hello AnUGraHA";
+
+        b = b.startsWith("Hel");
+
+        document.write("b = " + b + "<br>");
+
+        b = "Hello AnUGraHA";
+
+        b = b.endsWith("Hel");
+
+        document.write("b = " + b + "<br>");
+
+        b = "Hello AnUGraHA";
+
+        var p = new RegExp("An");
+
+        var res = p.test(b);
+
+        document.write("res =" + res);
+
+    </script>
+
+</body>
+
 </html>
