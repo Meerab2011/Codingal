@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <script>
+
+    function f1(){
+    document.write("Hello" + "<br>");
+    var i;sum=0;
+    for(i=0;i<arguments.lenght;i++)
+    { sum=sum+arguments[i];} 
+    document.write(sum+"<br>")
+        }
+        var a=10,b=34,c=76,d=98;
+        f1(a, b,c,d);
+
+        function f2(x, y) {
+                document.write((x + y) + "<br>");
+            }
+            var a = 87, b = 567;
+            f2(a, b);
+
+            function f3(x, y) {
+                    document.write((x * y) + "<br>");
+                }
+                var a = 34.56, b = 678;
+                f3(a, b);
+
+                 function f4(x, y) {
+                        document.write((x / y) + "<br>");
+                    }
+                    var a = 4598.65, b = 876.45;
+                    f4(a, b);
+
+                    function f4(x, y) {
+                            document.write((x - y) + "<br>");
+                        }
+                        var a = 7464, b = 847.88;
+                        f4(a, b);
+        </script>
+    </body>
+</html>
