@@ -1,0 +1,27 @@
+<html>
+    <body>
+<script>
+    function sum (a,b,c){
+        document.write("starting sum()"+"<br>")
+        var x=a+b+c;
+        document.write("ending sum()" + "<br>")
+        return x;
+    }
+      function avg(x1, x2, x3) {
+            document.write("starting avg()" + "<br>")
+            
+            var s = sum(x1, x2, x3);
+               var av = s / 3;
+       document.write(av+"<br>")
+            document.write("ending avg()"+"<br>")
+          
+      }  
+          
+           document.write("starting main()" + "<br>")  
+        
+        var x=10,y=5,z=3;
+        avg(x,y,z)
+          document.write("ending main()" + "<br>") 
+</script>
+    </body>
+</html>

@@ -3,6 +3,24 @@
 
     </head>
     <body>
-        
+        <p id="i1"></p>
+        <p id="i2"></p>
+        <p id="i3"></p>
+        <p id="i4"></p>
+            <script>
+       var x;         
+                var friends=['Gisa','Rony','Shiv',];
+document.getElementById("i1").innerHTML=friends;
+ document.getElementById("i2").innerHTML = friends[0];
+ document.getElementById("i3").innerHTML = friends[1];                                       
+  document.getElementById("i4").innerHTML = friends[2];
+  x=friends.join('****')
+  document.write(x);
+  document.write("<br>"+friends)
+  var y=friends.pop();
+    document.write("<br>"+y);
+        document.write("<br>" + friends)
+            </script>
+
     </body>
 </html>
