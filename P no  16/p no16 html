@@ -1,0 +1,31 @@
+
+<html>
+
+<body>
+    <p id="i1"></p>
+    <p id="i2"></p>
+    <p id="i3"></p>
+    <p id="i4"></p>
+    <p id="i5"></p>
+    <script>
+
+
+        var x;
+        var friends = ['Meerab', 'Hadia', 'Maira', 'Zarnab', 'shakeel'];
+        document.getElementById("i1").innerHTML = friends;
+        document.getElementById("i2").innerHTML = friends[0];
+        document.getElementById("i3").innerHTML = friends[1];
+        document.getElementById("i4").innerHTML = friends[2];
+        document.getElementById("i5").innerHTML = friends[3];
+
+        x = friends.join('*?+_$')
+        document.write(x);
+        document.write("<br>" + friend)
+
+        var y = friends.pop();
+        document.write("<br>" + y);
+        document.write("<br>" + friends)
+    </script>
+</body>
+
+</html>

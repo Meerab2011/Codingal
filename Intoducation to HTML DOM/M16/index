@@ -1,0 +1,8 @@
+<html>
+    <body>
+        <button type="button" onclick="f1()">Click here</button>
+        <script src="a.js">
+
+        </script>
+    </body>
+</html>
