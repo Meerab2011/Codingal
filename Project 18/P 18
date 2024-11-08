@@ -1,0 +1,46 @@
+<html>
+
+       
+    
+    <body>
+       <p id="i1"></p> 
+        <script>
+      class student {
+            constructor(name, year) {
+                this.n = name;
+                this.y = year;
+            }
+            age() {
+                var d = new Date();
+                return d.getFullYear() - this.y;
+            }
+
+        }
+        s1 = new student("Meerab", 2011);
+        document.write("My name is " + s1.n + ", I born in " + s1.y + ", and my age is " + s1.age() + "<br>")
+
+          
+            class bag {
+                constructor(brand) { this.name = brand; }
+                show() {
+                    return "I have a" + this.name;
+                }
+            }
+            class model extends bag {
+                constructor(brand, mod) {
+                    super(brand);
+                    this.m = mod;
+                }
+                view() {
+                    return this.show() + ", it is a " + this.m;
+                }
+                static disp() {
+                    return " hello";
+                }
+            }
+            let ol = new model("Chanel", "Gucci");
+                document.getElementById("i1").innerHTML = modle.disp() + o1.view();
+        </script>
+    </body>
+    
+</html>
