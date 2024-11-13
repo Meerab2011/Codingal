@@ -3,8 +3,38 @@
 
     </head>
     <body>
+        <h1>Array sorting</h1>
+        <button onclick="f1()">Numbers ascending order</button><br><br>
+        <button onclick="f2()">Numbers decending order</button><br><br>
+        <button onclick="f3()">Strings ascending order</button><br><br>
+        <button onclick="f4()">Strings decending order</button><br><br>
+            <p id="i1"></p><br><br>
+            <p id="i2"></p>
         <script>
-            
+           var n=[5,9,1,0,-2,4];
+           function f1(){
+            document.getElementById("i1"). innerHTML="Before Sorting :" +n;
+            n.sort(function (a,b){return a-b});
+               document.getElementById("i2").innerHTML = "After Sorting :" + n;
+
+           }
+            n = [5, 9, 1, 0, -2, 4];
+            function f2() {
+                    document.getElementById("i1").innerHTML = "Before Sorting :" + n;
+                    n.sort(function (a, b) { return b- a });
+                    document.getElementById("i2").innerHTML = "After Sorting :" + n;
+                }
+                var s=['Raaziya', 'Noureen',' Meerab'];
+                 function f3() {
+                        document.getElementById("i1").innerHTML = "Before Sorting :" + s;
+                        s.sort;
+                        document.getElementById("i2").innerHTML = "After Sorting :" + s;
+                    }
+                    function f4() {
+                            document.getElementById("i1").innerHTML = "Before Sorting :" + s;
+                            s.sort() .reverse();
+                            document.getElementById("i2").innerHTML = "After Sorting :" + s;
+                        }
         </script>
     </body>
 </html>

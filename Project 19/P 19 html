@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <h1>Array and Mapping</h1>
+        <button onclick="f1()">Numbers ascending order</button><br><br>
+        <button onclick="f2()">Numbers decending order</button><br><br>    
+        <p id="i1"></p><br><br>
+        <p id="i2"></p>
+        <p id="i3"></p>
+        <p id="i4"></p>
+        <script>
+    var n = [15, 90, -1, 43, 49, 300];
+    function f1() {
+            document.getElementById("i1").innerHTML = "Before Sorting :" + n;
+            n.sort(function (a, b) { return a - b });
+            document.getElementById("i2").innerHTML = "After Sorting :" + n;}
+    
+    n = [15,90,-1,43,49,300];
+        function f2() {
+            document.getElementById("i1").innerHTML = "Before Sorting :" + n;
+            n.sort(function (a, b) { return b - a });
+            document.getElementById("i2").innerHTML = "After Sorting :" + n;
+        }
+           var n = [67, 456, 200, 423];
+            function f3(num) {
+                return num * num;
+            }
+            document.getElementById("i3").innerHTML = "Original Array : " + n;
+            var m = n.map(f3);
+            document.getElementById("i4").innerHTML = "New Array : " + m;
+        </script>
+    </body>
+</html>

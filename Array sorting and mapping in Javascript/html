@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>Mapping and eval</h1>
+        <p id="i1"></p><br><br>
+        <p id="i2"></p>
+        <script>
+           ; var n=[7,8,2,3];
+            function f1(num){
+               return num*num;
+            }
+            document.getElementById("i1").innerHTML="Original Array : "+n;
+            var m=n.map(f1);
+            document.getElementById("i2").innerHTML = "New Array : " + m;
+            document.write((2+2)+"<br>");
+            document.write(("2" +"2") + "<br>");
+            document.write(("2 + 2") + "<br>");
+            document.write(eval("2 + 2") + "<br>");
+        </script>
+    </body>
+</html>
