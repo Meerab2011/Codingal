@@ -23,7 +23,7 @@
             class bag {
                 constructor(brand) { this.name = brand; }
                 show() {
-                    return "I have a" + this.name;
+                    return "I have a"+ this.name;
                 }
             }
             class model extends bag {
