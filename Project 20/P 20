@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <script>
+             try {
+                    f1();
+
+                }
+                catch (a) {
+                    document.write(a + "<br><br>");
+                    document.write("Hello Everyone" + "<br><br>");
+                }
+                
+
+                function fun(a, b) {
+                    var x = a * b;
+                    return x;
+                    (4, 7)
+                }
+                     try {
+                            f2();
+
+                        }
+                        catch (a) {
+                            document.write(a + "<br><br>");
+                            document.write("My name is Meerab" + "<br><br>");
+                        }
+                       
+                        function fun(a, b) {
+                            var x = a * b;
+                            return x;
+                            (4, 7)
+                        }
+                             try {
+                                    f3();
+
+                                }
+                                catch (a) {
+                                    document.write(a + "<br><br>");
+                                    document.write("I love coding " + "<br><br>");
+                                }
+                                
+
+                                function fun(a, b) {
+                                    var x = a * b;
+                                    return x;
+        (4, 7)
+                                }
+   
+        </script>
+    </body>
+</html>

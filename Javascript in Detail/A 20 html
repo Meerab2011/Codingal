@@ -1,10 +1,66 @@
 <html>
-    <head>
     
-    </head>
     <body>
+        <h1>Type Conversion</h1>
+        <p id="i1"></p>
         <script>
- 
+ var a=
+
+ a= 39;
+ document.write("value of a :"+a +"<br>");
+ document.write("Data type of a:"+ typeof a +"<br><br>");
+ a = 39;
+    document.write("value of a :" + a+"<br>");
+    document.write("Data type of a:"+ typeof a + "<br><br>");
+    a = 39;
+        document.write("value of a :" + a+"<br>");
+        document.write("Data type of a:"+ typeof a + "<br><br>");
+        a = 39;
+            document.write("value of a :" + a)+"<br>";
+            document.write("Data type of a:" +typeof a + "<br><br>");
+            a = 39;
+                document.write("value of a :" + a+"<br>");
+                document.write("Data type of a:"+ typeof a + "<br><br>");
+                 b = 4;
+                 a=String(b);
+                    document.write("value of a :" + a+"<br>");
+                    document.write("Data type of a:" + typeof a + "<br><br>");
+                    b = "7";
+                        a = Number(b);
+                        document.write("value of a :" + a+"<br>");
+                        document.write("Data type of a:" + typeof a + "<br><br>");
+                        b = Hello;
+                            a = Parseint(b);
+                            document.write("value of a :" + a+"<br>");
+                            document.write("Data type of a:" + typeof a + "<br><br>");
+                            b = true;
+                                a =Number(b);
+                                document.write("value of a :" + a+"<br>");
+                                document.write("Data type of a:" + typeof a + "<br><br>");
+                                 b = true;
+                                    a = String(b);
+                                    document.write("value of a :" + a+"<br>");
+                                    document.write("Data type of a:" + typeof a + "<br><br>");
+
+try{
+        f1();
+        
+}
+catch(a){
+    document.write(a +"<br><br>");
+        document.write("Hello Everyone"+ "<br><br>");
+}
+    document.write("Hello Everyone" + "<br><br>");
+
+function fun(a,b){
+    var x=a*b;
+    return x;
+   (4,7)
+}
+    document.write(x + "<br>");
+
+mul=(n1,n2)=>n1*n2;
+document.write(mul(4,7)+"<br>");
         </script>
     </body>
 </html>
