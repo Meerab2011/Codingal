@@ -27,6 +27,7 @@
             document.getElementById("i3").innerHTML = "Original Array : " + n;
             var m = n.map(f3);
             document.getElementById("i4").innerHTML = "New Array : " + m;
+           
         </script>
     </body>
 </html>
