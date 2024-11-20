@@ -1,0 +1,34 @@
+<html>
+<head>
+    
+</head>
+<body>
+<h1>Promise</h1>
+<p id="i1"></p>
+<script>
+function disp(value){
+document.getElementById("i1").innerHTML=value;
+}
+let pr=new  Promise  (function(res,rel){
+let x=10;
+if(x==10){
+res("Result OK");
+}
+else {
+rel("ERROR");
+}
+}
+);
+pr.then (
+    function(a){disp(a);},
+    function(e) { disp(e); }
+);
+
+async function add(a,b) {
+let r=await a*b;
+disp(r);
+}
+add(5,7);
+</script>
+</body>
+</html>

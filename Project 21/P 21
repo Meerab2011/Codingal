@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <h1>Promise</h1>
+        <p id="i1"></p>
+        <script>
+            function disp(value) {
+                document.getElementById("i1").innerHTML = value;
+            }
+            let pr = new Promise(function (res, rel) {
+                let x = 10;
+                if (x == 10) {
+                    res("RESULT");
+                }
+                else {
+                    rel("HANDLE");
+                }
+            }
+            );
+            pr.then(
+                function (c) { disp(c); },
+                function (d) { disp(d); }
+            );
+             async function add(e,f) {
+                    let r = await e* f;
+                    disp(r);
+                }
+                add(467, 900);
+            </script>
+    </body>
+
+</html>

@@ -3,6 +3,19 @@
 
     </head>
     <body>
-        
+        <h1>JSON</h1>
+        <p id="i1"></p>
+        <p id="i2"></p>
+        <script>
+            var obj={
+                name:"Yesha",
+                age:16,
+                gen:"F"
+            };
+            var a=JSON. stringify (obj) ;
+            document.getElementById("i1").innerHTML=a.number        
+            var b = JSON.stringify(obj);
+                document.getElementById("i2").innerHTML = b.number
+        </script>
     </body>
 </html>
