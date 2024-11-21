@@ -1,8 +1,20 @@
 <html>
     <head>
-        
+        <script>
+       function validateF(){
+        var a=document.forms['form1'] ['fn'].value;
+        if(a=""){
+            alert ("Name must be filled out");
+            return false;
+        }
+       }
+        </script>
     </head>
     <body>
-        
+        <form name="form1" onsubmit="validateF()">
+            Name : <input type ="text" name="fn">
+            <input type="sudmit" value="Submit">
+            <p id="i1"></p>
+        </form>
     </body>
 </html>
