@@ -56,5 +56,100 @@
                 <h1 class="text-success m-heading">ANDAAZ RESTAURANT</h1>
                 <h2 class="text-white">Codingal Education</h2>
             </div>
+
+            <div class="col-6 pl-5 pt-5 pb-5 text-white">
+            
+                <h3 class="text-warning">About Restaurant</h3>
+            
+                <h1 class="m-heading">Menu of Andaaz restaurent</h1>
+            
+                <p>
+            
+            
+                    <b class="text-danger">Andaaz Restaurant </b> offers a vibrant and diverse menu that celebrates the rich flavors of Indian and Pakistani cuisine.Known for its authentic recipes and artful presentation,<b class="text-info"> the menu includes a variety of appetizers, hearty mains, and
+                    indulgent desserts. </b>From succulent kebabs and aromatic biryanis to creamy curries and freshly baked naans, each dish is
+                    crafted with high-quality ingredients and traditional spices.
+                       
+        <b class="text-warning">
+        
+        .  Vegetarian and vegan options are also available,</b> ensuring something for everyone. The restaurant prides itself on a
+            perfect balance of bold flavors and culinary finesse, making every meal a memorable dining experience.
+                   <b class="text-warning">
+            
+                        </b>.
+            
+                </p>
+            
+                <br>
+            
+                <p>
+            Andaaz Restaurant’s menu is a treasure trove of culinary delights, offering iconic dishes such as <b class="text-success">Chicken Karahi</b>, a rich
+            and flavorful <b class="text-danger">tomato-based curry</b>, <b class="text-info">and Lamb Biryani</b>, a fragrant rice dish infused with aromatic spices and tender meat.
+            and flavorful <b class="text-danger">tomato-based curry</b>, <b class="text-info">and Lamb Biryani</b>, a <b class="text-warning">fragrant rice dish </b>infused with aromatic spices and tender meat.
+            and flavorful tomato-based curry, and Lamb Biryani, a fragrant rice dish infused with aromatic spices and tender meat.
+            For starters, the Seekh Kebabs and Samosas are must-tries, bursting with flavor and perfectly spiced.
+            Vegetarian diners can enjoy classics like <b class="text-warning">Palak Paneer</b>, a creamy spinach and cottage cheese dish, or the hearty <b class="text-success">Chana
+            Masala</b>, made with spiced chickpeas. To round off the meal, desserts like <b class="text-info">Gulab Jamun</b> and <b class="text-danger">Kheer</b> offer a sweet and
+            satisfying conclusion to the Andaaz experience.
+                    
+             </p>
+            
+                <button class="btn btn-outline-warning">Learn More</button>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            <br><br><br>
+            <!--Project Section-->
+            <div id="project" class="container mt-5 pt-5">
+                <h1 class="text-warning mb-3 pb-2">Menu </h1>
+                <div class="row">
+                    <div class="col-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="DALL·E 2024-11-28 22.15.53 - A detailed and visually appealing menu design for a restaurant called 'Andaaz,' featuring a mix of Indian and Pakistani dishes. The menu should have a.webp" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
+                            
+                                <p class="card-text">
+                                    Andaaz Restaurant, featuring a selection of Indian and Pakistani dishes with a warm, inviting design.
+                                </p>
+                                <a href="#" class="btn btn-warning">See Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="DALL·E 2024-11-28 22.19.23 - A visually appealing menu layout for a restaurant called 'Andaaz,' showcasing Indian and Pakistani dishes with vibrant imagery of the food. Include na.webp" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
+                    <div class="class-body">
+                       
+                        <p class="card-text">
+                            Andaaz Restaurant, featuring dish names alongside vibrant food imagery. Let me know if you'd like further adjustments or
+                            additional designs
+                        </p>
+                        <a href="#" class="btn btn-success">See Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="m3.jpg" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
+                    <div class="class-body">
+                       
+                        <p class="card-text">
+                            This is the menu of Andaaz Restaurant.
+                        </p>
+                        <a href="#" class="btn btn-danger">See Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        
     </body>
 </html>
