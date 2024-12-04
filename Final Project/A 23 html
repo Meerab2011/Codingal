@@ -1,217 +1,235 @@
-<html>
-    <head>
-
-
-    <meta charset="UTF-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Bootstrap CSS -->
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-
-    <!-- My CSS -->
-
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Font Awesome -->
-
-    <script src="https://kit.fontawesome.com/a24879a822.js" crossorigin="anonymous"></script>
-
-    <!-- Google Fonts -->
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+<!-- My CSS -->
+<link rel="stylesheet" href="style.css" />
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a24879a822.js" crossorigin="anonymous"></script>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
         rel="stylesheet" />
+<title>Portfolio</title>
+</head>
+<body>
+<div class="container navigation pt-3">
+<div class="row">
+<div class="col-6 d-flex justify-content-start align-items-center">
+<i class="fa fa-spinner fa-spin fa-3x fa-fw text-warning pb-3"></i>
+<h5 class="d-inline pl-2 text-white">CODINGAL</h5>
+</div>
+<div class="col-6 pt-2">
+<div class="row text-center p-0 d-flex justify-content-end align-items-center">
+<div class="col-3">
+<a href="#about" class="text-white navigation-link">About</a>
+</div>
+<div class="col-3">
+<a href="#projects" class="text-white navigation-link">Projects</a>
+</div>
+<div class="col-3">
 
-    <title>Portfolio</title>
-
-
-    </head>
-    <body>
-       <div class="container navigation pt-3">
-        <div class="row">
-            <div class="col-6 d-flex justify-content start align-items-center">
-                <i class="fa fa-spinner fa-spin fa-3x fa-fw text-warning pb-3"></i>
-                <h5 class="d-inline pl-2 text-white">CONDIGAL</h5>
-
-            </div>
-            <div class="col-6 pt-2">
-                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
-                    <div class="col-3">
-                        <a herf="#about" class="text-white navigation-link">About</a>
-                       
-                    </div>
-                    <div class="col-3">
-                        <a herf="#project" class="text-white navigation-link">project</a>
-                </div>
-                <div class="col-3">
-                    <a herf="#social-media" class="text-white navigation-link">social-media</a>
-            </div>
-            <div class="col-3">
-                <a herf="#" target="_blank" class="text-white navigation-link">Resume</a>
-            </div>
-        </div>
-       </div>
-       <br><br><br><br><br><br><br><br>
-        
-        <!-- About Section -->
-        
-        <div id="about" class="container about p-5">
-        
-            <div class="row">
-        
-                <div class="col-6">
-        
-                    <img src="about_img.jpg" class="img-fluid" />
-        
-                </div>
-       <!--Main Container-->
-        <div class="main-container container">
-            <h2 class="text-white">Hello, I'm</h2>
-            <h1 class="text-warning m-heading">Codingal Technologies</h1>
-            <h2 class="text-white">Codingal Education</h2>
-        </div>
-
-        
-        
-                <div class="col-6 pl-5 pt-5 pb-5 text-white">
-        
-                    <h3 class="text-warning">About Codingal</h3>
-        
-                    <h1 class="m-heading">A little bit about me</h1>
-        
-                    <p>
-        
-        
-                        <b class="text-warning">Codingal </b> is on a mission to inspire school kids to <b
-                            class="text-warning">fall in love with coding</b>. Coding helps develop logical thinking and
-        
-                        problem-solving skills. Coding jobs are the future. They already constitute more than 60% of all the
-        
-                        jobs in Science, Technology, Engineering, and Math. While still in school, those who start young will be
-        
-                        ahead of everyone by the time they get into college. They will be <b class="text-warning">creators of
-        
-                            the future</b>.
-        
-                    </p>
-        
-                    <br>
-        
-                    <p>
-        
-                        In today’s age, <b class="text-warning">coding </b>has become an essential skill. Coding for kids helps
-        
-                        them interact with technology better. Studies also show that it aids in holistic development of the
-        
-                        child, improving cognitive functioning as well as logical thinking.
-        
-                        <b class="text-warning">Holistic development </b> means evolving cognitive, physical, and social skills
-        
-                        of a child to prepare them better for the interactions with the world. Coding as an activity not only
-        
-                        involves mental development but also focuses on social understanding.
-        
-                    </p>
-        
-                    <button class="btn btn-outline-warning">Learn More</button>
-        
-                </div>
-        
-            </div>
-        
-        </div>
-        
-        <br><br><br>
-        <!--Project Section-->
-        <div id="project" class="container mt-5 pt-5">
-            <h1 class="text-warning mb-3 pb-2">My Projects</h1>
-            <div class="row">
-                <div class="col-4 mb-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="messaging.jpg" class="card-img-top img-fluid" style="height: 13rem;"alt="..."/>
-                        <div class="class-body">
-                            <h5 class="card-tittle">Messaging Web App</h5>
-                            <p class="card-text">
-                                some quick example text to build on the card tittle and make up the bulk of the card's content. 
-                            </p>
-                            <a href="#" class="btn btn-warning">See Project</a>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-            <div class="col-4 mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="fitness.jpg" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
-                    <div class="class-body">
-                        <h5 class="card-tittle">Fitness App</h5>
-                        <p class="card-text">
-                            some quick example text to build on the card tittle and make up the bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn btn-warning">See Project</a>
-                    </div>
-                </div>
-            </div>
-            
-
-                <div class="col-4 mb-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="e_commerence_platform.jpg" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
-                        <div class="class-body">
-                            <h5 class="card-tittle">E-commerence Platform</h5>
-                            <p class="card-text">
-                                some quick example text to build on the card tittle and make up the bulk of the card's content.
-                            </p>
-                            <a href="#" class="btn btn-warning">See Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-
-                    <div class="col-4 mb-5">
-                        <div class="card" style="width: 18rem;">
-                            <img src="music.jpg" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
-                            <div class="class-body">
-                                <h5 class="card-tittle">Music Player</h5>
-                                <p class="card-text">
-                                    some quick example text to build on the card tittle and make up the bulk of the card's content.
-                                </p>
-                                <a href="#" class="btn btn-warning">See Project</a>
-                            </div>
-                        </div>
-                    </div>
-                   
-
-                        <div class="col-4 mb-5">
-                            <div class="card" style="width: 18rem;">
-                                <img src="photography.jpg" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
-                                <div class="class-body">
-                                    <h5 class="card-tittle">Photography Platform</h5>
-                                    <p class="card-text">
-                                        some quick example text to build on the card tittle and make up the bulk of the card's content.
-                                    </p>
-                                    <a href="#" class="btn btn-warning">See Project</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                            <div class="col-4 mb-5">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="web.jpg" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
-                                    <div class="class-body">
-                                        <h5 class="card-tittle"> Web App</h5>
-                                        <p class="card-text">
-                                            some quick example text to build on the card tittle and make up the bulk of the card's content.
-                                        </p>
-                                        <a href="#" class="btn btn-warning">See Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            </div>
-    </body>
+<a href="#social-media" class="text-white navigation-link">Social Media</a>
+ </div>
+ <div class="col-3">
+ <a href="#" target="_blank" class="text-white navigation-link">Resume</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+<!-- Main Container -->
+<div class="main-container container">
+<h2 class="text-white">Hello, I'm</h2>
+<h1 class="text-warning m-heading">Codingal Technologies</h1>
+<h2 class="text-white">Coding Education</h2>
+</div>
+<br><br><br>
+<!-- About Section -->
+<div id="about" class="container about p-5">
+<div class="row">
+<div class="col-6">
+<img src="about_img.jpg" class="img-fluid" />
+</div>
+<div class="col-6 pl-5 pt-5 pb-5 text-white">
+<h3 class="text-warning">About Codingal</h3>
+<h1 class="m-heading">A little bit about me</h1>
+<p>
+<b class="text-warning">Codingal </b> is on a mission to inspire school kids to <b
+ class="text-warning">fall in love with coding</b>. Coding helps develop logical thinking and
+problem-solving skills. Coding jobs are the future. They already constitute more than 60% of all the
+jobs in Science, Technology, Engineering, and Math. While still in school, those who start young
+ will be
+ahead of everyone by the time they get into college. They will be <b class="text-warning">creators
+of
+the future</b>.
+</p>
+<br>
+<p>
+In today’s age, <b class="text-warning">coding </b>has become an essential skill. Coding for kids
+helps
+them interact with technology better. Studies also show that it aids in holistic development of the
+child, improving cognitive functioning as well as logical thinking.
+<b class="text-warning">Holistic development </b> means evolving cognitive, physical, and social
+skills
+of a child to prepare them better for the interactions with the world. Coding as an activity not
+only
+involves mental development but also focuses on social understanding.
+</p>
+<button class="btn btn-outline-warning">Learn More</button>
+</div>
+</div>
+</div>
+<br><br><br>
+<!-- Projects Section -->
+<div id="projects" class="container mt-5 pt-5">
+<h1 class="text-warning mb-3 pb-2">My Projects</h1>
+<div class="row">
+<div class="col-4 mb-5">
+<div class="card" style="width: 18rem;">
+<img src="messaging.jpg" class="card-img-top img-fluid" style="height: 13rem;" alt="..." />
+<div class="card-body">
+<h5 class="card-title">Messaging Web App</h5>
+<p class="card-text">
+Some quick example text to build on the card title and make up
+the bulk of the card's content.
+</p>
+<a href="#" class="btn btn-warning">See Project</a>
+</div>
+</div>
+</div>
+<div class="col-4 mb-5">
+<div class="card" style="width: 18rem;">
+ <img src="fitness.jpg" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
+ <div class="card-body">
+<h5 class="card-title">Fitness Web App</h5>
+<p class="card-text">
+Some quick example text to build on the card title and make up
+the bulk of the card's content.
+</p>
+<a href="#" class="btn btn-warning">See Project</a>
+</div>
+</div>
+</div>
+<div class="col-4 mb-5">
+<div class="card" style="width: 18rem;">
+<img src="e_commerce_platform.jpg" class="card-img-top img-fluid" alt="..."
+style="height: 13rem;" />
+div class="card-body">
+<h5 class="card-title">E-Commerce Platform</h5>
+<p class="card-text">
+Some quick example text to build on the card title and make up
+ the bulk of the card's content.
+</p>
+<a href="#" class="btn btn-warning">See Project</a>
+</div>
+</div>
+</div>
+<div class="col-4 mb-5">
+<div class="card" style="width: 18rem;">
+<img src="music.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+<div class="card-body">
+<h5 class="card-title">Music Player</h5>
+<p class="card-text">
+Some quick example text to build on the card title and make up
+the bulk of the card's content.
+ </p>
+<a href="#" class="btn btn-warning">See Project</a>
+</div>
+</div>
+</div>
+<div class="col-4 mb-5">
+<div class="card" style="width: 18rem;">
+<img src="photography.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+<div class="card-body">
+<h5 class="card-title">Photography Platform</h5>
+<p class="card-text">
+Some quick example text to build on the card title and make up
+ the bulk of the card's content.
+</p>
+<a href="#" class="btn btn-warning">See Project</a>
+</div>
+</div>
+</div>
+<div class="col-4 mb-5">
+<div class="card" style="width: 18rem;">
+<img src="web.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+<div class="card-body">
+<h5 class="card-title">Manga Scraping Web App</h5>
+<p class="card-text">
+Some quick example text to build on the card title and make up
+the bulk of the card's content.
+</p>
+<a href="#" class="btn btn-warning">See Project</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+<!-- Social Media Section -->
+<div id="social-media" class="container-fluid">
+<div class="container text-white py-5">
+<h4 class="text-warning">Social Media</h4>
+<h1 class="m-heading">Let's be friends</h1>
+<div class="row pt-5">
+<div class="col-3 media_link btn" href="#">
+<div class="row">
+<div class="col-6 d-flex justify-content-start">
+<h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+</div>
+<div class="col-6 d-flex justify-content-end align-items-center">
+<i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+</div>
+</div>
+</div>
+<div class="col-3 media_link btn">
+<div class="row">
+<div class="col-6 d-flex justify-content-start">
+<h3 class="m-0 pt-2 text-white">Github</h3>
+</div>
+<div class="col-6 d-flex justify-content-end align-items-center">
+<i class="fab fa-github fa-2x text-secondary"></i>
+</div>
+</div>
+</div>
+<div class="col-3 media_link btn">
+<div class="row">
+<div class="col-6 d-flex justify-content-start">
+<h3 class="m-0 pt-2 text-white"><a href="https://www.youtube.com/watch?v=8wof_hJ-14M"
+target="_blank">Youtube</a></h3>
+</div>
+<div class="col-6 d-flex justify-content-end align-items-center">
+<i class="fab fa-youtube fa-2x text-secondary"></i>
+<a href="https://www.youtube.com/watch?v=8wof_hJ-14M" target="_blank"></a>
+</div>
+</div>
+</div>
+<div class="col-3 media_link bg-warning btn">
+<div class="row">
+<div class="col-6 d-flex justify-content-start">
+<h3 class="m-0 pt-2 text-dark">Email</h3>
+</div>
+<div class="col-6 d-flex justify-content-end align-items-center">
+<i class="fas fa-envelope fa-2x text-secondary"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container text-muted text-center py-3 mt-5">
+<h5>
+Copyright &copy; 2024 |
+<a class="text-warning text-decoration-none" href="#about">All Rights Are Reserved By Codingal
+Education</a>
+</h5>
+</div>
+</footer>
+</body>
 </html>

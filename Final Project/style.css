@@ -1,15 +1,16 @@
 
+
 html {
 
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 
 }
 
 body {
 
-background: #252525;
+    background: #252525;
 
-font-family: "Baloo Tamma 2", cursive;
+    font-family: "Baloo Tamma 2", cursive;
 
 }
 
@@ -17,17 +18,17 @@ font-family: "Baloo Tamma 2", cursive;
 
 .navigation-link {
 
-border: 2px solid transparent;
+    border: 2px solid tan;
 
 }
 
 .navigation-link:hover {
 
-text-decoration: none;
+    text-decoration: none;
 
-border-bottom: 2px solid #f5ba09;
+    border-bottom: 2px solid red;
 
-transition: 0.5s ease;
+    transition: 0.5s ease;
 
 }
 
@@ -35,13 +36,13 @@ transition: 0.5s ease;
 
 .m-heading {
 
-font-family: "Roboto Slab", serif;
+    font-family: "Roboto Slab", serif;
 
 }
 
 .text-white {
 
-color: white;
+    color: white;
 
 }
 
@@ -49,21 +50,21 @@ color: white;
 
 .main-container {
 
-height: 100vh;
+    height: 100vh;
 
-display: flex;
+    display: flex;
 
-flex-direction: column;
+    flex-direction: column;
 
-justify-content: center;
+    justify-content: center;
 
-align-items: center;
+    align-items: center;
 
-background-image: url('i10.jpg');
+    background-image: url('background.jpeg');
 
-background-attachment: fixed;
+    background-attachment: fixed;
 
-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -71,11 +72,11 @@ background-size: cover;
 
 .main_row {
 
-display: flex;
+    display: flex;
 
-justify-content: center;
+    justify-content: center;
 
-align-items: center;
+    align-items: center;
 
 }
 
@@ -83,7 +84,7 @@ align-items: center;
 
 .main_row h1 {
 
-font-size: 5rem;
+    font-size: 5rem;
 
 }
 
@@ -91,23 +92,23 @@ font-size: 5rem;
 
 .main_row img {
 
-width: auto;
+    width: auto;
 
-height: 100vh;
+    height: 100vh;
 
 }
 
 .about {
 
-background: #313552;
+    background: #313552;
 
-border-radius: 0.5rem;
+    border-radius: 0.5rem;
 
 }
 
 .card {
 
-border-bottom: 8px solid #f5ba09;
+    border-bottom: 8px solid #f5ba09;
 
 }
 
@@ -115,7 +116,7 @@ border-bottom: 8px solid #f5ba09;
 
 #social-media {
 
-background: #a0a7d8;
+    background: #a0a7d8;
 
 }
 
@@ -123,14 +124,14 @@ background: #a0a7d8;
 
 .media_link {
 
-padding: 1rem;
+    padding: 1rem;
 
-max-width: 15rem;
+    max-width: 15rem;
 
-margin-left: 1rem;
+    margin-left: 1rem;
 
-border: 2px solid #f5ba09;
+    border: 2px solid #f5ba09;
 
-border-radius: 0.5rem;
+    border-radius: 0.5rem;
 
 }
