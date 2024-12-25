@@ -1,4 +1,6 @@
 print (3)
 print (3+4)
-print ("Hello everyone")
+print ("Hello everyone",end="")
 print ("Raaziya","Devanshu","Meerab","Noureen")
+print ("hello",end="")
+print ("everyone")
