@@ -1,4 +1,3 @@
-'''
 def f1():
     print("Noureen")
     print("Razziya")
@@ -31,7 +30,7 @@ def f1():
    print ("hello")
    f1()
 f1()
-'''
+
 n=int(input("Enter number of terms: "))
 x,y=0,1
 print(x)
